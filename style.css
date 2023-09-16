@@ -13,27 +13,6 @@ body {
 	background-color: #c0c0c0;
 }
 
-h1 {
-	font-size: 44px;
-	line-height: 48px;
-}
-
-h2 {
-	font-size: 36px;
-	line-height: 44px;
-}
-
-h3 {
-	font-size: 32px;
-	line-height: 44px;
-}
-
-h4 {
-	font-size: 24px;
-	line-height: 42px;
-}
-
-
 
 /* Header */
 header {
@@ -45,6 +24,7 @@ header {
 }
 
 .brand {
+	display: inline-block;
 	color: #05396b;
 	background-color: #c0c0c0;
 	border: 5px solid black;
