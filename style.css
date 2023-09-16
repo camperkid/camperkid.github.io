@@ -9,7 +9,7 @@ body {
 	font-weight: 300;
 	font-size: 16px;
 	line-height: 24px;
-	color: #05396b;
+	color: #283f51;
 	background-color: #c0c0c0;
 }
 
@@ -20,12 +20,12 @@ header {
 	width: 100%;
 	height: 4rem;
 	color: #c0c0c0;
-	background-color: #05396b;
+	background-color: #283f51;
 }
 
-.brand {
+header .brand {
 	display: inline-block;
-	color: #05396b;
+	color: #283f51;
 	background-color: #c0c0c0;
 	border: 5px solid black;
 	border-radius: 50%;
@@ -33,4 +33,8 @@ header {
 
 header nav, header nav ul, header nav ul li {
 	display: inline-block;
+}
+
+header nav li a {
+	color: inherit;
 }
