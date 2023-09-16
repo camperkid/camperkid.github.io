@@ -38,3 +38,12 @@ header nav, header nav ul, header nav ul li {
 header nav li a {
 	color: inherit;
 }
+
+
+/* Layout Styles */
+.container {
+	width: 976px;
+	height: auto;
+	margin: 0 auto;
+	background-color: #faebd7;
+}
