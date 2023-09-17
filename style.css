@@ -31,7 +31,7 @@ header .brand {
 	border-radius: 50%;
 }
 
-header nav, header nav ul, header nav ul li {
+.primary-navigation, .primary-navigation ul, .primary-navigation ul li {
 	display: inline-block;
 }
 
