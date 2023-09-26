@@ -1,54 +1,18 @@
-/*************** CSS Reset ****************/
-@import url(normalize.css);
-/* End of CSS Reset */
 
-
-/* Typography */
-body {
-	font-family: Arial, Helvetica, sans-serif;
-	font-weight: 300;
-	font-size: 16px;
-	line-height: 24px;
-	color: #283f51;
-	background-color: #c0c0c0;
-}
-
-
-/* Header */
-header {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100px;
-	color: #c0c0c0;
-	background-color: #283f51;
-}
-
-header .brand {
-	display: inline-block;
-	color: #283f51;
-	background-color: #c0c0c0;
-	border: 5px solid black;
-	border-radius: 50%;
-}
-
-.primary-navigation, .primary-navigation ul, .primary-navigation ul li {
-	display: inline-block;
-}
-
-.primary-navigation nav li a {
-	color: inherit;
-}
-
-
-/* Layout Styles */
+/* Layout **************************************************/
 .container {
-	width: 976px;
-	height: auto;
-	margin: 0 auto;
+    width: 800px;
+    height: auto;
 }
 
-main {
-	margin-top: 100px;
+
+
+
+/* Header **************************************************/
+.brand {
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline-block;
 }
