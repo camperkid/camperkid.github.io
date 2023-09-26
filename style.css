@@ -13,6 +13,6 @@
     display: inline-block;
 }
 
-nav ul li {
+nav ul, nav ul li {
     display: inline-block;
 }
