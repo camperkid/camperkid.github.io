@@ -57,8 +57,9 @@
         width: 800px;
         height: auto;
         margin: 0 auto;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+        background-color: inherit;
     }
 
 
@@ -103,6 +104,7 @@
     header {
         background-color: var(--secondary-bg-color);
         color: var(--secondary-font-color);
+        padding: 10px 0;
     }
 
     header .brand {
@@ -132,10 +134,12 @@
         background-color: var(--secondary-bg-color);
         color: var(--secondary-font-color);
         font-size: 12px;
+        padding-top: 5px;
+        padding-bottom: 15px;
     }
 
     footer .disclaimer {
-        margin: 25px auto;
+        margin: 15px auto;
         text-align: center;
     }
 
