@@ -55,9 +55,10 @@
     /* Custom Properties **************************************/
     :root {
         --background-light: whitesmoke;
-        --background-dark: #252934;
-        --color-light: whitesmoke;
-        --color-dark: #2f3d7e;
+        --background-dark: #1b242f;
+        --cover-background: #252934;
+        --color-light: silver;
+        --color-dark: #1b242f;
         --color-standout: #e31b6d;
     }
 
@@ -101,18 +102,27 @@
         margin: 15px;
     }
 
+    .highlight {
+        color: var(--color-standout);
+    }
+
 
 
     /* Header **************************************************/
     header {
         background-color: var(--background-dark);
         color: var(--color-light);
-        padding: 10px 0;
+        padding: 5px 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
     }
 
     header .brand {
         display: block;
         float: left;
+        color: var(--color-standout);
     }
 
     header .brand a {
@@ -132,18 +142,48 @@
 
 
 
+    /* Main **************************************************/
+    main {
+        margin-top: 54px;
+    }
+
+
+
+
+
+    /* Cover **************************************************/
+    .cover {
+        background: var(--cover-background);
+        color: var(--color-light);
+        height: 90vh;
+        width: 100vw;
+    }
+
+    .cover .hero {
+        font-size: 32px;
+        font-weight: 100;
+        text-align: center;
+        padding-top: 25%;
+    }
+    
+
+
+
+
+
     /* Footer **************************************************/
     footer {
         background-color: var(--background-dark);
         color: var(--color-light);
         font-size: 12px;
-        padding-top: 10px;
+        padding-top: 15px;
         padding-bottom: 15px;
     }
 
     footer .disclaimer {
         margin: 15px auto;
         text-align: center;
+        color: var(--color-standout);
     }
 
     footer .footer-nav ul {
