@@ -52,25 +52,26 @@
 
 
 
+    /* Custom Properties **************************************/
+    :root {
+        --background-light: whitesmoke;
+        --background-dark: #252934;
+        --color-light: whitesmoke;
+        --color-dark: #2f3d7e;
+        --color-standout: #e31b6d;
+    }
+
+
+
     /* Layout ******************************************/
     .container {
-        width: 800px;
+        width: 1100px;
         height: auto;
         margin: 0 auto;
         padding-left: 30px;
         padding-right: 30px;
         background-color: inherit;
-    }
-
-
-
-    /* Custom Properties **************************************/
-    :root {
-        --main-bg-color: whitesmoke;
-        --secondary-bg-color: #01539d;
-        --main-font-color: #2f3d7e;
-        --secondary-font-color: #eea47f;
-    }
+    }  
 
 
 
@@ -79,6 +80,8 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 14px;
         font-weight: 300;
+        background-color: var(--background-light);
+        color: var(--color-dark);
     }
 
     h1 {
@@ -102,8 +105,8 @@
 
     /* Header **************************************************/
     header {
-        background-color: var(--secondary-bg-color);
-        color: var(--secondary-font-color);
+        background-color: var(--background-dark);
+        color: var(--color-light);
         padding: 10px 0;
     }
 
@@ -131,10 +134,10 @@
 
     /* Footer **************************************************/
     footer {
-        background-color: var(--secondary-bg-color);
-        color: var(--secondary-font-color);
+        background-color: var(--background-dark);
+        color: var(--color-light);
         font-size: 12px;
-        padding-top: 5px;
+        padding-top: 10px;
         padding-bottom: 15px;
     }
 
