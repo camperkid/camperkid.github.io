@@ -66,7 +66,7 @@
 
     /* Layout ******************************************/
     .container {
-        width: 1100px;
+        max-width: 1100px;
         height: auto;
         margin: 0 auto;
         padding-left: 30px;
@@ -156,14 +156,20 @@
         background: var(--cover-background);
         color: var(--color-light);
         height: 90vh;
-        width: 100vw;
+        width: 100%;
+        position: relative;
     }
 
-    .cover .hero {
+    .cover .hero-text {
         font-size: 32px;
         font-weight: 100;
         text-align: center;
-        padding-top: 25%;
+        min-width: 80%;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
     
 
