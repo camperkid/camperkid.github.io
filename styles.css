@@ -83,11 +83,11 @@
         font-weight: 300;
         background-color: var(--background-light);
         color: var(--color-dark);
+        line-height: 1.12
     }
 
     h1 {
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-weight: 100;
+        font-family: Forte, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         font-size: 36px;
     }
 
@@ -100,6 +100,11 @@
     nav ul li {
         display: inline-block;
         margin: 15px;
+    }
+
+    .brand {
+        font-family: Forte, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: whitesmoke;
     }
 
     .highlight {
@@ -122,7 +127,11 @@
     header .brand {
         display: block;
         float: left;
-        color: var(--color-standout);
+        text-shadow: 2px 0 var(--color-standout, #e31b6d),
+             -2px 0 var(--color-standout, #e31b6d),
+             0 2px var(--color-standout, #e31b6d),
+             0 -2px var(--color-standout, #e31b6d);
+        font-weight: 200;
     }
 
     header .brand a {
@@ -130,7 +139,7 @@
     }
 
     header .main-nav {
-        font-weight: bold;
+        font-weight: normal;
         float: right;
     }
 
@@ -172,6 +181,14 @@
         transform: translate(-50%, -50%);
     }
     
+    .cover .brand {
+        color: var(--color-dark);
+        text-shadow: 2px 0 var(--color-light, #e31b6d),
+             -2px 0 var(--color-light, #e31b6d),
+             0 2px var(--color-light, #e31b6d),
+             0 -2px var(--color-light, #e31b6d);
+        font-weight: 200;
+    }
 
 
 
