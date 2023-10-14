@@ -1,365 +1,365 @@
 
-    /* CSS Reset ***********************************************/
-    /* http://meyerweb.com/eric/tools/css/reset/ 
-       v2.0 | 20110126
-       License: none (public domain)
-    */
-
-    html, body, div, span, applet, object, iframe,
-    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-    a, abbr, acronym, address, big, cite, code,
-    del, dfn, em, img, ins, kbd, q, s, samp,
-    small, strike, strong, sub, sup, tt, var,
-    b, u, i, center,
-    dl, dt, dd, ol, ul, li,
-    fieldset, form, label, legend,
-    table, caption, tbody, tfoot, thead, tr, th, td,
-    article, aside, canvas, details, embed, 
-    figure, figcaption, footer, header, hgroup, 
-    menu, nav, output, ruby, section, summary,
-    time, mark, audio, video {
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font-size: 100%;
-        font: inherit;
-        vertical-align: baseline;
-    }
-    /* HTML5 display-role reset for older browsers */
-    article, aside, details, figcaption, figure, 
-    footer, header, hgroup, menu, nav, section {
-        display: block;
-    }
-    body {
-        line-height: 1;
-    }
-    ol, ul {
-        list-style: none;
-    }
-    blockquote, q {
-        quotes: none;
-    }
-    blockquote:before, blockquote:after,
-    q:before, q:after {
-        content: '';
-        content: none;
-    }
-    table {
-        border-collapse: collapse;
-        border-spacing: 0;
-    }
-    /* End of CSS Reset **********************************/
-
-
-
-    /* Custom Properties **************************************/
-    :root {
-        --background-light: whitesmoke;
-        --background-dark: #1b242f;
-        --cover-background: #252934;
-        --color-light: silver;
-        --color-dark: #1b242f;
-        --color-standout: #e31b6d;
-    }
-
-
-
-    /* Layout ******************************************/
-    .container {
-        max-width: 1100px;
-        height: auto;
-        margin: 0 auto;
-        padding-left: 30px;
-        padding-right: 30px;
-        background-color: inherit;
-    }  
-
-
-
-
-    /* Common Styles *******************************************/
-    * {
-    box-sizing: border-box;
-    }
-
-    body {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 14px;
-        font-weight: 300;
-        background-color: var(--background-light);
-        color: var(--color-dark);
-        line-height: 1.25
-    }
-
-    h1 {
-        font-family: Forte, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: 36px;
-    }
-
-    h2 {
-        font-size: 28px;
-    }
-
-    h3 {
-        font-size: 14px;
-        font-weight: bold;
-        text-transform: uppercase;
-        padding-bottom: 3px;
-        border-bottom: 3px solid var(--color-dark);
-        margin-bottom: 15px;
-    }
-
-    p {
-        margin: 15px auto;
-    }
-
-    nav li a {
-        color: inherit;
-        text-decoration: none;
-        text-transform: uppercase;
-    }
-
-    nav ul li {
-        display: inline-block;
-        margin: 15px;
-    }
-
-    .brand {
-        font-family: Forte, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        color: whitesmoke;
-    }
-
-    .highlight {
-        color: var(--color-standout);
-    }
-
-    .section-heading {
-        display: inline-block;
-        font-weight: 600;
-        display: block;
-        margin: 30px auto;
-        height: auto;
-        width: auto;
-        text-align: center;
-        padding: 10px;
-        text-decoration: underline;
-        text-transform: uppercase;
-    }
-
-    .background-polyfill {
-    }
-
-
-
-
-
-    /* Header **************************************************/
-    header {
-        background-color: var(--background-dark);
-        color: var(--color-light);
-        padding: 5px 0;
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 100%;
-    }
+/* CSS Reset ***********************************************/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* End of CSS Reset **********************************/
+
+
+
+/* Custom Properties **************************************/
+:root {
+    --background-light: whitesmoke;
+    --background-dark: #1b242f;
+    --cover-background: #252934;
+    --color-light: silver;
+    --color-dark: #1b242f;
+    --color-standout: #e31b6d;
+}
+
+
+
+/* Layout ******************************************/
+.container {
+    max-width: 1100px;
+    height: auto;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: inherit;
+}  
+
+
+
+
+/* Common Styles *******************************************/
+* {
+box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    background-color: var(--background-light);
+    color: var(--color-dark);
+    line-height: 1.25
+}
+
+h1 {
+    font-family: Forte, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+    border-bottom: 3px solid var(--color-dark);
+    margin-bottom: 15px;
+}
+
+p {
+    margin: 15px auto;
+}
+
+nav li a {
+    color: inherit;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 15px;
+}
+
+.brand {
+    font-family: Forte, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: whitesmoke;
+}
+
+.highlight {
+    color: var(--color-standout);
+}
+
+.section-heading {
+    display: inline-block;
+    font-weight: 600;
+    display: block;
+    margin: 30px auto;
+    height: auto;
+    width: auto;
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.background-polyfill {
+}
+
+
+
+
+
+/* Header **************************************************/
+header {
+    background-color: var(--background-dark);
+    color: var(--color-light);
+    padding: 5px 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
 
-    header .brand {
-        display: block;
-        float: left;
-        text-shadow: 2px 0 var(--color-standout, #e31b6d),
-             -2px 0 var(--color-standout, #e31b6d),
-             0 2px var(--color-standout, #e31b6d),
-             0 -2px var(--color-standout, #e31b6d);
-        font-weight: 200;
-    }
-
-    header .brand a {
-        color: inherit
-    }
-
-    header .main-nav {
-        font-weight: normal;
-        float: right;
-    }
-
-    header .main-nav ul li:last-child {
-        margin-right: 0;
-    }
-
-
-
-
-
-    /* Main **************************************************/
-    main {
-        margin-top: 54px;
-    }
-
-
-
-
-
-    /* Cover **************************************************/
-    #cover {
-        background: var(--cover-background);
-        color: var(--color-light);
-        height: 90vh;
-        width: 100%;
-        position: relative;
-    }
-
-    .hero-text {
-        font-size: 32px;
-        font-weight: 100;
-        text-align: center;
-        min-width: 80%;
-        margin: 0;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-    .brand {
-        color: var(--color-dark);
-        text-shadow: 2px 0 var(--color-light, #e31b6d),
-             -2px 0 var(--color-light, #e31b6d),
-             0 2px var(--color-light, #e31b6d),
-             0 -2px var(--color-light, #e31b6d);
-        font-weight: 200;
-    }
-
-
-
-
-
-    /* About Me *************************************************/
-    #about {
-        margin-top: 15px;
-        margin-bottom: 30px;
-    }
-
-    .about, .skills {
-        display: inline-block;
-        width: 50%;
-        margin: auto 0;
-    }
-
-    .about {
-        padding-right: 15px;
-        float: left;
-        margin: 15px auto;
-    }
+header .brand {
+    display: block;
+    float: left;
+    text-shadow: 2px 0 var(--color-standout, #e31b6d),
+            -2px 0 var(--color-standout, #e31b6d),
+            0 2px var(--color-standout, #e31b6d),
+            0 -2px var(--color-standout, #e31b6d);
+    font-weight: 200;
+}
+
+header .brand a {
+    color: inherit
+}
+
+header .main-nav {
+    font-weight: normal;
+    float: right;
+}
+
+header .main-nav ul li:last-child {
+    margin-right: 0;
+}
+
+
+
+
+
+/* Main **************************************************/
+main {
+    margin-top: 54px;
+}
+
+
+
+
+
+/* Cover **************************************************/
+#cover {
+    background: var(--cover-background);
+    color: var(--color-light);
+    height: 90vh;
+    width: 100%;
+    position: relative;
+}
+
+.hero-text {
+    font-size: 32px;
+    font-weight: 100;
+    text-align: center;
+    min-width: 80%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.brand {
+    color: var(--color-dark);
+    text-shadow: 2px 0 var(--color-light, #e31b6d),
+            -2px 0 var(--color-light, #e31b6d),
+            0 2px var(--color-light, #e31b6d),
+            0 -2px var(--color-light, #e31b6d);
+    font-weight: 200;
+}
+
+
+
+
+
+/* About Me *************************************************/
+#about {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.about, .skills {
+    display: inline-block;
+    width: 50%;
+    margin: auto 0;
+}
+
+.about {
+    padding-right: 15px;
+    float: left;
+    margin: 15px auto;
+}
 
-
-
-
-    /* Skills ***************************************************/
-    .skills {
-        padding-left: 15px;
-        float: right;
-        border-left: 4px var(--color-dark) solid;
-        padding-bottom: 10px;
-    }
-
-    .skillset .bar {
-        display: block;
-        color: antiquewhite;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    .skill-name, .progress {
-        display: inline-block;
-        font-weight: bold;
-        border: 2px solid var(--color-dark);
-    }
-
-    .skill-name {
-        background-color: var(--color-dark);
-        text-align: right;
-        width: 19%;
-        min-width: 9ch;
-        padding-right: 5px;
-
-    }
-
-    .progress {
-        display: inline-block;
-        font-weight: bold;
-        width: 80%;
-    }
-
-    .fill {
-        display: inline-block;
-        background-color: var(--color-standout);
-        background-clip: border-box;
-        text-align: right;
-        padding-right: 5px;
-        font-weight: normal;
-        width: 50%;
-    }
-
-    .fill-60 {
-        width: 60%;
-    }
-
-    .fill-70 {
-        width: 70%;
-    }
-
-    .fill-80 {
-        width: 80%;
-    }
-
-    .fill-90 {
-        width: 90%;
-    }
-
-    .fill-100 {
-        width: 100%;
-    }
-
-
-
-
-
-
-    /* Footer **************************************************/
-    footer {
-        background-color: var(--background-dark);
-        color: var(--color-light);
-        font-size: 12px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        margin-top: 50px;
-    }
-
-    footer .disclaimer {
-        margin: 15px auto;
-        text-align: center;
-        color: var(--color-standout);
-    }
-
-    footer .footer-nav ul {
-        text-align: center
-    }
-
-
-
-
-    /* Clearfix *************************************************/
-    .clearfix::before, .clearfix::after {
-        display: table;
-        content: "";
-    }
-
-    .clearfix::after {
-        clear: both;
-    }
-
-    .clearfix {
-        clear: both;
-        zoom: 1;
-    }
+
+
+
+/* Skills ***************************************************/
+.skills {
+    padding-left: 15px;
+    float: right;
+    border-left: 4px var(--color-dark) solid;
+    padding-bottom: 10px;
+}
+
+.skillset .bar {
+    display: block;
+    color: antiquewhite;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.skill-name, .progress {
+    display: inline-block;
+    font-weight: bold;
+    border: 2px solid var(--color-dark);
+}
+
+.skill-name {
+    background-color: var(--color-dark);
+    text-align: right;
+    width: 19%;
+    min-width: 9ch;
+    padding-right: 5px;
+
+}
+
+.progress {
+    display: inline-block;
+    font-weight: bold;
+    width: 80%;
+}
+
+.fill {
+    display: inline-block;
+    background-color: var(--color-standout);
+    background-clip: border-box;
+    text-align: right;
+    padding-right: 5px;
+    font-weight: normal;
+    width: 50%;
+}
+
+.fill-60 {
+    width: 60%;
+}
+
+.fill-70 {
+    width: 70%;
+}
+
+.fill-80 {
+    width: 80%;
+}
+
+.fill-90 {
+    width: 90%;
+}
+
+.fill-100 {
+    width: 100%;
+}
+
+
+
+
+
+
+/* Footer **************************************************/
+footer {
+    background-color: var(--background-dark);
+    color: var(--color-light);
+    font-size: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 50px;
+}
+
+footer .disclaimer {
+    margin: 15px auto;
+    text-align: center;
+    color: var(--color-standout);
+}
+
+footer .footer-nav ul {
+    text-align: center
+}
+
+
+
+
+/* Clearfix *************************************************/
+.clearfix::before, .clearfix::after {
+    display: table;
+    content: "";
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.clearfix {
+    clear: both;
+    zoom: 1;
+}
