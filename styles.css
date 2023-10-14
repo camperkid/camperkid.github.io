@@ -76,19 +76,41 @@
 
 
 
+
     /* Common Styles *******************************************/
+    * {
+    box-sizing: border-box;
+    }
+
     body {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 14px;
         font-weight: 300;
         background-color: var(--background-light);
         color: var(--color-dark);
-        line-height: 1.12
+        line-height: 1.25
     }
 
     h1 {
         font-family: Forte, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         font-size: 36px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-bottom: 3px;
+        border-bottom: 3px solid var(--color-dark);
+        margin-bottom: 15px;
+    }
+
+    p {
+        margin: 15px auto;
     }
 
     nav li a {
@@ -110,6 +132,24 @@
     .highlight {
         color: var(--color-standout);
     }
+
+    .section-heading {
+        display: inline-block;
+        font-weight: 600;
+        display: block;
+        margin: 30px auto;
+        height: auto;
+        width: auto;
+        text-align: center;
+        padding: 10px;
+        text-decoration: underline;
+        text-transform: uppercase;
+    }
+
+    .background-polyfill {
+    }
+
+
 
 
 
@@ -161,7 +201,7 @@
 
 
     /* Cover **************************************************/
-    .cover {
+    #cover {
         background: var(--cover-background);
         color: var(--color-light);
         height: 90vh;
@@ -169,7 +209,7 @@
         position: relative;
     }
 
-    .cover .hero-text {
+    .hero-text {
         font-size: 32px;
         font-weight: 100;
         text-align: center;
@@ -180,8 +220,8 @@
         left: 50%;
         transform: translate(-50%, -50%);
     }
-    
-    .cover .brand {
+
+    .brand {
         color: var(--color-dark);
         text-shadow: 2px 0 var(--color-light, #e31b6d),
              -2px 0 var(--color-light, #e31b6d),
@@ -194,6 +234,98 @@
 
 
 
+    /* About Me *************************************************/
+    #about {
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    .about, .skills {
+        display: inline-block;
+        width: 50%;
+        margin: auto 0;
+    }
+
+    .about {
+        padding-right: 15px;
+        float: left;
+        margin: 15px auto;
+    }
+
+
+
+
+    /* Skills ***************************************************/
+    .skills {
+        padding-left: 15px;
+        float: right;
+        border-left: 4px var(--color-dark) solid;
+        padding-bottom: 10px;
+    }
+
+    .skillset .bar {
+        display: block;
+        color: antiquewhite;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .skill-name, .progress {
+        display: inline-block;
+        font-weight: bold;
+        border: 2px solid var(--color-dark);
+    }
+
+    .skill-name {
+        background-color: var(--color-dark);
+        text-align: right;
+        width: 19%;
+        min-width: 9ch;
+        padding-right: 5px;
+
+    }
+
+    .progress {
+        display: inline-block;
+        font-weight: bold;
+        width: 80%;
+    }
+
+    .fill {
+        display: inline-block;
+        background-color: var(--color-standout);
+        background-clip: border-box;
+        text-align: right;
+        padding-right: 5px;
+        font-weight: normal;
+        width: 50%;
+    }
+
+    .fill-60 {
+        width: 60%;
+    }
+
+    .fill-70 {
+        width: 70%;
+    }
+
+    .fill-80 {
+        width: 80%;
+    }
+
+    .fill-90 {
+        width: 90%;
+    }
+
+    .fill-100 {
+        width: 100%;
+    }
+
+
+
+
+
+
     /* Footer **************************************************/
     footer {
         background-color: var(--background-dark);
@@ -201,6 +333,7 @@
         font-size: 12px;
         padding-top: 15px;
         padding-bottom: 15px;
+        margin-top: 50px;
     }
 
     footer .disclaimer {
