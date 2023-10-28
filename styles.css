@@ -274,7 +274,7 @@ main {
 
 .about, .skills {
     display: inline-block;
-    width: 50%;
+    /* width: 50%; */
     margin: auto 0;
 }
 
