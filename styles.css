@@ -72,7 +72,40 @@ table {
     padding-left: 30px;
     padding-right: 30px;
     background-color: inherit;
-}  
+}
+
+.grid {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.col {
+    display: inline-block;
+}
+
+.col-1 {
+    width: 16%;
+}
+
+.col-2 {
+    width: 32%;
+}
+
+.col-3 {
+    width: 48%;
+}
+
+.col-4 {
+    width: 64%;
+}
+
+.col-5 {
+    width: 80%;
+}
+
+.col-6 {
+    width: 96%;
+}
 
 
 
@@ -146,8 +179,7 @@ nav ul li {
     text-transform: uppercase;
 }
 
-.background-polyfill {
-}
+
 
 
 
