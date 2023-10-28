@@ -107,6 +107,18 @@ table {
     width: 96%;
 }
 
+.grid figure img {
+    max-width: 100px;
+    width: 320px;
+    height: 480px;
+}
+
+.grid figure img {
+    content: "Project Photo";
+}
+
+
+
 
 
 
@@ -155,6 +167,11 @@ nav li a {
 nav ul li {
     display: inline-block;
     margin: 15px;
+}
+
+section {
+    margin-top: 30px;
+    margin-bottom: 30;
 }
 
 .brand {
