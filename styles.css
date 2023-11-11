@@ -81,36 +81,44 @@ table {
 
 .col {
     display: inline-block;
+    float: left;
 }
 
 .col-1 {
-    width: 16%;
+    width: 16.6666%;
 }
 
 .col-2 {
-    width: 32%;
+    width: 30.3333%;
 }
 
 .col-3 {
-    width: 48%;
+    width: 49.9999%;
 }
 
 .col-4 {
-    width: 64%;
+    width: 66.6666%;
 }
 
 .col-5 {
-    width: 80%;
+    width: 83.3333%;
 }
 
 .col-6 {
-    width: 96%;
+    width: 99.9999%;
+}
+
+.grid figure {
+    padding: 20px;
+    text-align: center;
 }
 
 .grid figure img {
+    display: inline-block;
     max-width: 100%;
-    width: 320px;
-    height: 360px;
+    width: 20rem;
+    height: 15rem;
+    border: 2px solid;
 }
 
 .grid figure figcaption {
@@ -400,17 +408,23 @@ footer .footer-nav ul {
 
 
 
+
+
 /* Clearfix *************************************************/
-.clearfix::before, .clearfix::after {
+.clearfix::before,
+.clearfix::after,
+.grid::before,
+.grid::after {
     display: table;
     content: "";
 }
 
-.clearfix::after {
+.clearfix::after,
+.grid::after {
     clear: both;
 }
 
-.clearfix {
+.clearfix, .grid {
     clear: both;
     zoom: 1;
 }
