@@ -385,6 +385,25 @@ main {
 
 
 
+/* Contact Section 
+**************************************************/
+form input,
+form textarea {
+    display: inline-block;
+}
+
+form label {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    max-width: 20%;
+}
+
+
+
+
+
+
+
 /* Footer **************************************************/
 footer {
     background-color: var(--background-dark);
