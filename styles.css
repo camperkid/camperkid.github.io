@@ -48,11 +48,11 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-/* End of CSS Reset **********************************/
+/* End of CSS Reset *********************************/
 
 
 
-/* Custom Properties **************************************/
+/* Custom Properties ********************************/
 :root {
     --background-light: whitesmoke;
     --background-dark: #1b242f;
@@ -174,19 +174,14 @@ nav li a {
 
 nav ul li {
     display: inline-block;
-    margin: 15px;
+    padding: 1rem .5rem .5rem .5rem;
 }
 
 section {
     margin-top: 30px;
-    margin-bottom: 30;
+    margin-bottom: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
-}
-
-.brand {
-    font-family: Forte, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: whitesmoke;
 }
 
 .highlight {
@@ -223,6 +218,11 @@ header {
     width: 100%;
 }
 
+.brand {
+    font-family: Forte, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: whitesmoke;
+}
+
 header .brand {
     display: block;
     float: left;
@@ -237,13 +237,21 @@ header .brand a {
     color: inherit
 }
 
-header .main-nav {
-    font-weight: normal;
+.main-nav {
+    font-weight: 500;
     float: right;
 }
 
-header .main-nav ul li:last-child {
-    margin-right: 0;
+.main-nav li:hover {
+    border-bottom: 3px solid var(--color-standout);
+}                                               
+
+.main-nav li:active {
+    border-bottom: 3px solid var(--color-standout);
+}
+
+.main-nav li:focus {
+    color: var(--color-standout);
 }
 
 
@@ -415,6 +423,20 @@ form input[type="submit"] {
     background-color: var(--color-dark);
 }
 
+.send-message {
+    border: 3px solid var(--color-dark);
+}
+
+.send-message:hover {
+    background-color: var(--color-standout);
+}
+
+form input[required]::after {
+    display: contents;
+    content: "*";
+    width: 5%;
+    color: var(--color-standout);
+}
 
 
 
@@ -437,8 +459,12 @@ footer .disclaimer {
 }
 
 footer .footer-nav ul {
-    text-align: center
+    text-align: center;
 }
+
+.footer-nav li:hover {
+    color: var(--color-standout);
+}    
 
 
 
